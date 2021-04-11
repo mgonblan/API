@@ -1,3 +1,4 @@
 # API
-Hola, este es un ejemplo de API.
-##Entidades.
+This is the project that will indicate the Entities and the creation for the GraphQL API of our project.
+## Entities.
+

@@ -1,0 +1,84 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "categories": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "coordinates": {
+            "bsonType": "object",
+            "properties": {
+                "latitude": {
+                    "bsonType": "double"
+                },
+                "longitude": {
+                    "bsonType": "double"
+                }
+            }
+        },
+        "display_phone": {
+            "bsonType": "string"
+        },
+        "location": {
+            "bsonType": "object",
+            "properties": {
+                "address1": {
+                    "bsonType": "string"
+                },
+                "city": {
+                    "bsonType": "string"
+                },
+                "country": {
+                    "bsonType": "string"
+                },
+                "state": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "rating": {
+            "bsonType": "int"
+        },
+        "responsables": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "responsable1": {
+                        "bsonType": "object",
+                        "properties": {
+                            "email": {
+                                "bsonType": "string"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            }
+                        }
+                    },
+                    "responsable2": {
+                        "bsonType": "object",
+                        "properties": {
+                            "email": {
+                                "bsonType": "string"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "review_count": {
+            "bsonType": "int"
+        }
+    },
+    "title": "Business"
+}
