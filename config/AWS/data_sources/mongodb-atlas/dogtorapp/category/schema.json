@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "alias": {
+            "bsonType": "string"
+        },
+        "parent": {
+            "bsonType": "objectId"
+        },
+        "title": {
+            "bsonType": "string"
+        }
+    },
+    "title": "category"
+}

@@ -1,0 +1,8 @@
+{
+    "categories": {
+        "ref": "#/relationship/mongodb-atlas/dogtorapp/category",
+        "source_key": "categories",
+        "foreign_key": "alias",
+        "is_list": true
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "role_name": {
+            "bsonType": "string"
+        }
+    },
+    "title": "role"
+}
