@@ -1,0 +1,54 @@
+[
+    {
+        "rider_id": "user1",
+        "hours": [
+            {
+                "hours_type": "REGULAR",
+                "open": [
+                    {
+                        "is_overnight": false,
+                        "start": "1100",
+                        "end": "2100",
+                        "day": 0
+                    },
+                    {
+                        "is_overnight": false,
+                        "start": "1100",
+                        "end": "2100",
+                        "day": 1
+                    },
+                    {
+                        "is_overnight": false,
+                        "start": "1100",
+                        "end": "2100",
+                        "day": 2
+                    },
+                    {
+                        "is_overnight": false,
+                        "start": "1100",
+                        "end": "2100",
+                        "day": 3
+                    },
+                    {
+                        "is_overnight": false,
+                        "start": "1100",
+                        "end": "2200",
+                        "day": 4
+                    },
+                    {
+                        "is_overnight": false,
+                        "start": "1100",
+                        "end": "2200",
+                        "day": 5
+                    },
+                    {
+                        "is_overnight": false,
+                        "start": "1100",
+                        "end": "2100",
+                        "day": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

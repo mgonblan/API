@@ -1,0 +1,16 @@
+[
+    {
+        "_id":"5346 DYW",
+        "owner_id": "user1",
+        "features":[{
+        "vehicle_type":"caravan",
+        "Number_seats":3,"capacity":300}]
+    },
+    {
+        "_id":"5119 MZV",
+        "owner_id": "user1",
+        "features":[{
+        "vehicle_type":"bycicle",
+        "Number_seats":1,"capacity":30}]
+    }
+]

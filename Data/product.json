@@ -1,0 +1,80 @@
+[
+    {
+        "product_name":"Cepillo de dientes",
+        "product_description":"Cepillo de dientes balinés",
+        "business_id":{"$oid": "607f1223434e7c246f297d1d"},
+        "sku":"CEP-MED-BAM-ECO",
+        "product_attributes":[{"size":"M"},{"material":[{"handle":"wood"},{"bristles":"nilon"}]},{"color":"brown"}],
+        "is_available":true,
+        "categories":[{"title":"Oral hygiene","alias":"oral_hygiene","parent_categories":[{"title":"hygiene","alias":"hygiene"},{"title":"parapharmacy","alias":"parapharmacy"}]}],
+        "photos":[
+            {"url":"https://www.conasi.eu/6549-large_default/cepillo-dientes-extra-suave.webp","is_profile_image":true}
+        ]  
+    },
+    {
+        "product_name":"Cepillo de dientes",
+        "product_description":"Cepillo de dientes balinés",
+        "business_id":{"$oid": "607f1223434e7c246f297d19"},
+        "sku":"CEP-MED-BAM-ECO",
+        "product_attributes":[{"size":"M"},{"material":[{"handle":"wood"},{"bristles":"nilon"}]},{"color":"brown"}],
+        "is_available":true,
+        "categories":[{"title":"Oral hygiene","alias":"oral_hygiene","parent_categories":[{"title":"hygiene","alias":"hygiene"},{"title":"parapharmacy","alias":"parapharmacy"}]}],
+        "photos":[
+            {"url":"https://www.conasi.eu/6549-large_default/cepillo-dientes-extra-suave.webp","is_profile_image":true}
+        ]  
+    },
+    {
+        "product_name":"Colutorio bucal",
+        "product_description":"Colutorio bucal calcio",
+        "business_id":{"$oid": "607f1223434e7c246f297d1a"},
+        "sku":"COL-PRO-FRE-ROJ",
+        "categories":[{"title":"Oral hygiene","alias":"oral_hygiene","parent_categories":[{"title":"hygiene","alias":"hygiene"},{"title":"parapharmacy","alias":"parapharmacy"}]}],
+        "product_attributes":[{"cap":"1000 ml"},{"maincomp":"provitalina"},{"flavour":"Strawberry"},{"color":"red"}],
+        "is_available":false,
+        "photos":[
+            {"url":"https://www.dosfarma.com/66925-large_default/vitis-colutorio-encias-1000ml.jpg","is_profile_image":true}
+        ]
+    },
+    {
+        "product_name":"Colutorio bucal",
+        "product_description":"Colutorio bucal calcio",
+        "business_id":{"$oid": "607f1223434e7c246f297d1b"},
+        "sku":"COL-PRO-FRE-ROJ",
+        "categories":[{"title":"Oral hygiene","alias":"oral_hygiene","parent_categories":[{"title":"hygiene","alias":"hygiene"},{"title":"parapharmacy","alias":"parapharmacy"}]}],
+        "product_attributes":[{"cap":"1000 ml"},{"maincomp":"provitalina"},{"flavour":"Strawberry"},{"color":"red"}],
+        "is_available":true,
+        "photos":[
+            {"url":"https://www.dosfarma.com/66925-large_default/vitis-colutorio-encias-1000ml.jpg","is_profile_image":true}
+        ]
+    },
+    {
+        "product_name":"Huevos camperos M",
+        "product_description":"Huevos camperos eco de gallinas en libertad tamaño M",
+        "business_id":{"$oid":"60801840434e7c246f297d22"},
+        "sku":"HUE-CAM-MOR-M",
+        "categories":[{"title":"Eggs","alias":"Eggs","parent_categories":[{"title":"Food","alias":"Food"},{"title":"Protein","alias":"Protein"}]}],
+        "product_attributes":[{"size":"M"},{"Origin":"Madrid"},{"color":"brown"},{"expiration_date":{"$date": "2021-04-21T00:00:00.000Z"}},{"numpack":12}],
+        "is_available":true,
+        "photos":[{"url":"https://www.reydeabastos.es/7674-large_default/huevos-morenos-talla-m.jpg","is_profile_image":true}]
+    },
+    {
+        "product_name":"Huevos camperos L",
+        "product_description":"Huevos camperos eco de gallinas en libertad tamaño L",
+        "categories":[{"title":"Eggs","alias":"Eggs","parent_categories":[{"title":"Food","alias":"Food"},{"title":"Protein","alias":"Protein"}]}],
+        "business_id":{"$oid":"60801840434e7c246f297d22"},
+        "sku":"HUE-CAM-MOR-L",
+        "product_attributes":[{"size":"L"},{"Origin":"Madrid"},{"color":"brown"},{"expiration_date":{"$date": "2021-04-25T00:00:00.000Z"}},{"numpack":12}],
+        "is_available":true,
+        "photos":[{"url":"https://laworkingshop.com/1641-large_default/huevos-camperos-morenos-1-docena-.jpg","is_profile_image":true}]
+    },
+    {
+        "product_name":"Huevos camperos S",
+        "product_description":"Huevos camperos eco de gallinas en libertad tamaño S",
+        "business_id":{"$oid":"60801840434e7c246f297d22"},
+        "sku":"HUE-CAM-MOR-S",
+        "product_attributes":[{"size":"S"},{"Origin":"Madrid"},{"color":"brown"},{"expiration_date":{"$date": "2021-04-25T00:00:00.000Z"}},{"numpack":12}],
+        "is_available":true,
+        "categories":[{"title":"Eggs","alias":"Eggs","parent_categories":[{"title":"Food","alias":"Food"},{"title":"Protein","alias":"Protein"}]}],
+        "photos":[{"url":"https://laworkingshop.com/1641-large_default/huevos-camperos-morenos-1-docena-.jpg","is_profile_image":true}]
+    }
+]

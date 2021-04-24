@@ -1,0 +1,97 @@
+{
+    "order_id": "unique-order-id",
+    "store_id": "<your_store_id>",
+    "order_time": "2018-06-08 14:24:53",
+    "estimated_pickup_time": "2018-06-08 14:45:44",
+    "utc_offset_minutes": "60",
+    "payment_method": "CASH",
+    "currency": "EUR",
+    "courier":  "user1",
+    "customer": {
+        "name": "Waldo",
+        "phone_number": "N/A",
+        "hash": "11111111-2222-3333-4444-555555555555",
+        "invoicing_details": {
+            "company_name": "Acme Inc.",
+            "company_address": "42 Wallaby Way, Sydney",
+            "tax_id": "B12341234"
+        }
+    },
+    "order_code": "BA7DWBUL",
+    "allergy_info": "I am allergic to tomato",
+    "estimated_total_price": 3080,
+    "delivery_fee": null,
+    "minimum_basket_surcharge": null,
+    "customer_cash_payment_amount": 5000,
+    "products": [
+        {
+            "quantity": 2,
+            "price": 1000,
+            "name": "Burger",
+            "id": "pd1",
+            "attributes": [
+                {
+                    "quantity": 1,
+                    "id": "at1",
+                    "name": "Extra meat",
+                    "price": 300
+                },
+                {
+                    "quantity": 1,
+                    "id": "at2",
+                    "name": "Water (33 cl)",
+                    "price": 0
+                },
+                {
+                    "quantity": 1,
+                    "id": "at3",
+                    "name": "Tomato sauce",
+                    "price": 0
+                },
+                {
+                    "quantity": 1,
+                    "id": "at4",
+                    "name": "Lettuce",
+                    "price": 0
+                }
+            ],
+            "purchased_product_id": "A1"
+        },
+        {
+            "quantity": 1,
+            "price": 480,
+            "name": "Ice cream",
+            "id": "pd2",
+            "attributes": [
+                {
+                    "quantity": 1,
+                    "id": "at5",
+                    "name": "Vanilla flavour",
+                    "price": 0
+                },
+                {
+                    "quantity": 1,
+                    "id": "at6",
+                    "name": "Small size",
+                    "price": 0
+                }
+            ],
+            "purchased_product_id": "A2"
+        }
+    ],
+    "delivery_address": {
+        "label": "<address>",
+        "latitude": 41.3971955,
+        "longitude": 2.2001737
+    },
+    "bundled_orders": [
+        "order-id-1",
+        "order-id-2"
+    ],
+    "pick_up_code": "433",
+    "is_picked_up_by_customer": false,
+    "cutlery_requested": true,
+    "partner_discounts_products": 1550,
+    "partner_discounted_products_total": 1530,
+    "total_customer_to_pay": null
+}

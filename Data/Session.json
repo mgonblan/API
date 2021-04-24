@@ -1,0 +1,29 @@
+[
+  {
+    "sessionToken": "r:d8f0b4c77741de0055af236961b50f46",
+    "user": "user1234",
+    "createdWith": {
+      "action": "signup",
+      "authProvider": "password"
+    },
+    "restricted": false,
+    "installationId": "7f108a19-fa92-4c02-9b22-b997a1d14300",
+    "expiresAt": "2021-04-21T05:52:55.466Z",
+    "createdAt": "2017-04-01T05:52:55.466Z",
+    "updatedAt": "2017-04-01T05:52:55.466Z"
+  },
+  {
+    "sessionToken": "r:a66bc88f85939eab45c38060deaf15f0",
+    "user": "user1111",
+    "createdWith": {
+      "action": "signup",
+      "authProvider": "password"
+    },
+    "restricted": false,
+    "installationId": "ea591922-34fc-46f7-a019-38acacc8180a",
+    "expiresAt": "2021-04-31T18:07:22.568Z",
+    "createdAt": "2021-04-01T18:07:22.568Z",
+    "updatedAt": "2017-04-01T18:07:22.568Z"
+  }
+]
+

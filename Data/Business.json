@@ -1,0 +1,453 @@
+[
+  {
+    "name": "Farmacia Goya 89",
+    "url": "https://www.yelp.com/biz/farmacia-goya-89-madrid?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "owner_id": "user1234",
+    "date_from_associated": {
+      "$date": "2021-04-13T01:00:00+01:00Z"
+    },
+    "date_to_asociated": {
+      "$date": "1970-01-01T01:00:00+01:00Z"
+    },
+    "down_reason": "",
+    "categories": [
+      {
+        "alias": "pharmacy",
+        "title": "Pharmacy",
+        "parent_categories": [
+          {
+            "alias": "health",
+            "title": "Health & Medical"
+          }
+        ]
+      }
+    ],
+    "display_phone": "+34 914 35 49 58",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        40.42497,
+        -3.67616
+      ]
+    },
+    "photos": [
+      {
+        "url": "https://s3-media3.fl.yelpcdn.com/bphoto/OfRLmocGvkG4_izcWRaEDQ/o.jpg",
+        "is_profile_image": true
+      },
+      {
+        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2Ffarmaciagoya89%2Fposts%2F1572398019512702%3Flocale2%3Des_LA&psig=AOvVaw12WiNEFCk9CK3hXj0M1BF4&ust=1618997670777000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMioorvCjPACFQAAAAAdAAAAABAX",
+        "is_profile_image": false
+      }
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": "0000",
+            "end": "0000",
+            "day": 0,
+            "is_overnight": true
+          },
+          {
+            "start": "0000",
+            "end": "0000",
+            "day": 1,
+            "is_overnight": true
+          },
+          {
+            "start": "0000",
+            "end": "0000",
+            "day": 2,
+            "is_overnight": true
+          },
+          {
+            "start": "0000",
+            "end": "0000",
+            "day": 3,
+            "is_overnight": true
+          },
+          {
+            "start": "0000",
+            "end": "0000",
+            "day": 4,
+            "is_overnight": true
+          },
+          {
+            "start": "0000",
+            "end": "0000",
+            "day": 5,
+            "is_overnight": true
+          },
+          {
+            "start": "0000",
+            "end": "0000",
+            "day": 6,
+            "is_overnight": true
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Calle de Goya, 89\n28009 Madrid\nSpain"
+    },
+    "rating": 5.0,
+    "review_count": 2
+  },
+  {
+    "name": "Farmacía de La Paloma",
+    "url": "https://www.yelp.com/biz/farmac%C3%ADa-de-la-paloma-madrid?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "owner_id": "admin1",
+    "date_from_associated": {
+      "$date": "2021-04-18T01:00:00+01:00Z"
+    },
+    "date_to_asociated": {
+      "$date": "1970-01-01T01:00:00+01:00Z"
+    },
+    "down_reason": "",
+    "categories": [
+      {
+        "alias": "pharmacy",
+        "title": "Pharmacy",
+        "parent_categories": [
+          {
+            "alias": "health",
+            "title": "Health & Medical"
+          }
+        ]
+      }
+    ],
+    "display_phone": "+34 913 65 34 58",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        40.412383,
+        -3.707953
+      ]
+    },
+    "photos": [
+      "https://s3-media2.fl.yelpcdn.com/bphoto/EYtKI44daNv9sozjUzqQxw/o.jpg"
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": "0930",
+            "end": "2300",
+            "day": 0,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2300",
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2300",
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2300",
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2300",
+            "day": 4,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2300",
+            "day": 5,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2300",
+            "day": 6,
+            "is_overnight": false
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Calle de Toledo, 46\n28005 Madrid\nSpain"
+    },
+    "rating": 4.5,
+    "review_count": 6
+  },
+  {
+    "name": "Farmacia Quintana",
+    "owner_id": "admin1",
+    "date_from_associated": {
+      "$date": "2021-04-18T01:00:00+01:00Z"
+    },
+    "date_to_asociated": {
+      "$date": "1970-01-01T01:00:00+01:00Z"
+    },
+    "down_reason": "",
+    "url": "https://www.yelp.com/biz/farmacia-quintana-madrid?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "categories": [
+      {
+        "alias": "pharmacy",
+        "title": "Pharmacy",
+        "parent_categories": [
+          {
+            "alias": "health",
+            "title": "Health & Medical"
+          }
+        ]
+      }
+    ],
+    "display_phone": "+34 915 47 39 36",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        40.42777,
+        -3.71788
+      ]
+    },
+    "photos": [
+      {
+        "url": "https://s3-media4.fl.yelpcdn.com/bphoto/Dz0himSK41jXA7c6rbPOow/o.jpg",
+        "is_profile_image": true
+      }
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 0,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 4,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 5,
+            "is_overnight": false
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Calle de Quintana,  20\n28008 Madrid\nSpain"
+    },
+    "rating": 5.0,
+    "review_count": 1
+  },
+  {
+    "name": "Farmacia José Alonso Gregorio",
+    "owner_id": "user1234",
+    "date_from_associated": {
+      "$date": "2021-04-18T01:00:00+01:00Z"
+    },
+    "date_to_asociated": {
+      "$date": "1970-01-01T01:00:00+01:00Z"
+    },
+    "down_reason": "",
+    "url": "https://www.yelp.com/biz/farmacia-jos%C3%A9-alonso-gregorio-madrid?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "categories": [
+      {
+        "alias": "pharmacy",
+        "title": "Pharmacy",
+        "parent_categories": [
+          {
+            "alias": "health",
+            "title": "Health & Medical"
+          }
+        ]
+      }
+    ],
+    "display_phone": "+34 914 62 89 30",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        40.38669,
+        -3.74224
+      ]
+    },
+    "photos": [
+      {
+        "url": "https://s3-media1.fl.yelpcdn.com/bphoto/gdcVdHqDCiDFy4C3kTHzpw/o.jpg",
+        "is_profile_image": false
+      },
+      {
+        "url": "https://2opfle1yeg2f3zqyqbpfbx76-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/HectorFH_DiarioFarma-1000x949.jpg",
+        "is_profile_image": true
+      }
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 0,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 4,
+            "is_overnight": false
+          },
+          {
+            "start": "0930",
+            "end": "2130",
+            "day": 5,
+            "is_overnight": false
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Paseo de Muñoz Grandes, 13\n28025 Madrid\nSpain"
+    },
+    "rating": 5.0,
+    "review_count": 1
+  },
+  {
+    "name": "Farmacia del Globo Carretas",
+    "owner_id": "user1234",
+    "date_from_associated": {
+      "$date": "2021-04-18T01:00:00+01:00Z"
+    },
+    "date_to_asociated": {
+      "$date": "1970-01-01T01:00:00+01:00Z"
+    },
+    "down_reason": "",
+    "url": "https://www.yelp.com/biz/farmacia-del-globo-carretas-madrid-2?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "categories": [
+      {
+        "alias": "pharmacy",
+        "title": "Pharmacy",
+        "parent_categories": [
+          {
+            "alias": "health",
+            "title": "Health & Medical"
+          }
+        ]
+      }
+    ],
+    "display_phone": "+34 915 21 07 63",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        40.415216,
+        -3.70331
+      ]
+    },
+    "photos": [
+      {
+        "url": "https://s3-media4.fl.yelpcdn.com/bphoto/It9MxJnaEJPuZDGLRUQkiw/o.jpg",
+        "is_profile_image": true
+      },
+      {
+        "url": "http://1.bp.blogspot.com/-V8ioTuxEdyg/VTu3zeWV3PI/AAAAAAAAFlQ/UC7TQdQJyto/s1600/03-10%2BDSC46461c.jpg",
+        "is_profile_image": false
+      }
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": "0900",
+            "end": "2100",
+            "day": 0,
+            "is_overnight": false
+          },
+          {
+            "start": "0900",
+            "end": "2100",
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": "0900",
+            "end": "2100",
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": "0900",
+            "end": "2100",
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": "0900",
+            "end": "2100",
+            "day": 4,
+            "is_overnight": false
+          },
+          {
+            "start": "0900",
+            "end": "2100",
+            "day": 5,
+            "is_overnight": false
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Calle de Carretas, 12\n28012 Madrid\nSpain"
+    },
+    "rating": 3.5,
+    "review_count": 4
+  }
+]

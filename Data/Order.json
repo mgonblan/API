@@ -1,0 +1,245 @@
+[
+    {
+        "order_id":"user11112021-04-22T12:31:00.000ZA-000001",
+        "client_id": "user1111",
+        "type": "PickUp",
+        "products": [
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "607f1223434e7c246f297d1d"
+                    },
+                    "sku": "CEP-MED-BAM-ECO"
+                },
+                "qty": 1
+            },
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "607f1223434e7c246f297d1b"
+                    },
+                    "sku": "COL-PRO-FRE-ROJ"
+                },
+                "qty": 1
+            }
+        ],
+        "date_order_created": {
+            "$date": "2021-04-22T12:31:00.000Z"
+        },
+        "chamge_status": [
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:31:00.000Z"
+                },
+                "status": "RECEIVED"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:31:00.000Z"
+                },
+                "status": "PROCESSED"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:40:00.000Z"
+                },
+                "status": "ORDER_PREPARED"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:41:00.000Z"
+                },
+                "status": "USER_CAN_TAKE_ORDER"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:45:00.000Z"
+                },
+                "status": "USER_ASKED_APPOINTMENT",
+                "properties": {
+                    "timestamp": {
+                        "$date": "2021-04-22T12:45:59.000Z"
+                    },
+                    "appontment_id": "A-181"
+                }
+            },
+            {
+                "timestamp": {
+                    "$date": "1970-01-01T00:00:00.000Z"
+                },
+                "status": "ORDER_RETIRED"
+            }
+        ],
+        "instructions": "Alergic to the beer "
+    },
+    {
+        "order_id":"user11112021-04-22T12:41:00.000ZA-000002",
+        "client_id": "user1111",
+        "type": "PickUp",
+        "products": [
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "607f1223434e7c246f297d1d"
+                    },
+                    "sku": "CEP-MED-BAM-ECO"
+                },
+                "qty": 1
+            },
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "607f1223434e7c246f297d1b"
+                    },
+                    "sku": "COL-PRO-FRE-ROJ"
+                },
+                "qty": 1
+            },
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "60801840434e7c246f297d22"
+                    },
+                    "sku": "HUE-CAM-MOR-M"
+                },
+                "qty": 1
+            },
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "60801840434e7c246f297d22"
+                    },
+                    "sku": "HUE-CAM-MOR-L"
+                },
+                "qty": 1
+            }
+        ],
+        "date_order_created": {
+            "$date": "2021-04-22T12:41:00.000Z"
+        },
+        "chamge_status": [
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:41:00.000Z"
+                },
+                "status": "RECEIVED"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:41:00.000Z"
+                },
+                "status": "PROCESSED"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:40:00.000Z"
+                },
+                "status": "ORDER_PREPARED"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:41:00.000Z"
+                },
+                "status": "USER_CAN_TAKE_ORDER"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T12:45:00.000Z"
+                },
+                "status": "USER_ASKED_APPOINTMENT",
+                "properties": {
+                    "timestamp": {
+                        "$date": "2021-04-22T12:45:59.000Z"
+                    },
+                    "appontment_id": "A-181"
+                }
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T13:49:00.000Z"
+                },
+                "status": "ORDER_RETIRED"
+            }
+        ],
+        "instructions": "Test the Eggs first"
+    },
+    {
+        "order_id":"mmoliner012021-04-22T13:49:00.000ZA-000001",
+        "client_id": "mmoliner01",
+        "type": "Delivery",
+        "products": [
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "607f1223434e7c246f297d1d"
+                    },
+                    "sku": "CEP-MED-BAM-ECO"
+                },
+                "qty": 1
+            },
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "607f1223434e7c246f297d1b"
+                    },
+                    "sku": "COL-PRO-FRE-ROJ"
+                },
+                "qty": 1
+            },
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "60801840434e7c246f297d22"
+                    },
+                    "sku": "HUE-CAM-MOR-S"
+                },
+                "qty": 2
+            },
+            {
+                "product": {
+                    "business_id": {
+                        "$oid": "60801840434e7c246f297d22"
+                    },
+                    "sku": "HUE-CAM-MOR-L"
+                },
+                "qty": 1
+            }
+        ],
+        "date_order_created": {
+            "$date": "2021-04-22T13:49:00.000Z"
+        },
+        "chamge_status": [
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T13:49:00.000Z"
+                },
+                "status": "RECEIVED"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T13:49:00.000Z"
+                },
+                "status": "PROCESSED"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T13:50:00.000Z"
+                },
+                "status": "ORDER_PREPARED"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T13:51:00.000Z"
+                },
+                "status": "driver_arrived"
+            },
+            {
+                "timestamp": {
+                    "$date": "2021-04-22T13:57:00.000Z"
+                },
+                "status": "ORDER_FINISHED"
+            }
+        ],
+        "instructions": "Test the Eggs first"
+    }
+]

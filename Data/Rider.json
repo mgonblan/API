@@ -1,0 +1,10 @@
+[
+    {
+        "rider_id": "user1",
+        "driving_car_license": "A12345678",
+        "is_freelancer": true,
+        "rate": 0.0,
+        "review_count": 0,
+        "vehicles":["5346 DYW","5119 MZV"]
+    }
+]

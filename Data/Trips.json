@@ -1,0 +1,86 @@
+[
+    {
+        "rider_id": "user1",
+        "storedroute": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    40.349005,
+                    -3.706982
+                ],
+                [
+                    40.350192,
+                    -3.706236
+                ]
+            ]
+        },
+        "status_changes": [
+            {
+                "status": "order_accepted",
+                "order_id": "mmoliner012021-04-22T13:49:00.000ZA-000001",
+                "timestamp": {
+                    "$date": "2021-04-22T12:32:00"
+                }
+            },
+            {
+                "status": "trip_began",
+                "timestamp": {
+                    "$date": "2021-04-22T12:31:00"
+                }
+            },
+            {
+                "status": "incident",
+                "timestamp": {
+                    "$date": "2021-04-22T12:33:00"
+                },
+                "properties": [
+                    {
+                        "description": "Multa por exceso de velocidad",
+                        "categories": [
+                            {
+                                "title": "velocity exceded penalty",
+                                "alias": "velocity_exceded",
+                                "parent_categories": [
+                                    {
+                                        "title": "penalties",
+                                        "alias": "penalties"
+                                    }
+                                ]
+                            }
+                        ],
+                        "amount": 300
+                    }
+                ]
+            },
+            {
+                "status": "incident",
+                "timestamp": {
+                    "$date": "2021-04-22T12:33:00"
+                },
+                "properties": [
+                    {
+                        "description": "Rider se mareó en el coche, va al hospital",
+                        "categories": [
+                            {
+                                "title": "proffessional illness",
+                                "alias": "professional_illness",
+                                "parent_categories": [
+                                    {
+                                        "title": "health",
+                                        "alias": "health"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "status":"order_arrived",
+                "timestamp": {
+                    "$date": "2021-04-22T13:33:00"
+                }
+            }
+        ]
+    }
+]

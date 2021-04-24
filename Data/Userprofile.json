@@ -1,0 +1,62 @@
+[
+    {
+        "user_id": "user1234",
+        "name": "Pedro María",
+        "surname": "de Santiago",
+        "nickname": "pmdesantiago",
+        "email": "pmdesantiago@dogtorapp.com",
+        "phone": "+345551234",
+        "birthdate": "2013-10-02T01:11:18.965Z",
+        "Description":"Mi nombre es Pedro María de santiago. \n Soy un joven que desea explorar.",
+        "photos": [
+            {
+                "url": "https://thispersondoesnotexist.com/image",
+                "isprofileimage": true
+            },
+            {
+                "url": "https://es.la-croix.com/images/0000/quien-era-el-apostol-tomas.jpg",
+                "isprofileimage": false
+            }
+        ]
+    },
+    {
+        "user_id": "user1111",
+        "name": "Irene",
+        "surname": "Montero de Fecca",
+        "nickname": "ImonteroDefecca",
+        "email": "ImonteroDefecca@dogtorapp.com",
+        "phone": "+355551239",
+        "birthdate": "2018-10-02T01:11:18.965Z",
+        "Description":"Feminista profunda.",
+        "photos": [
+            {
+                "url": "https://thispersondoesnotexist.com/image",
+                "isprofileimage": true
+            },
+            {
+                "url": "https://es.la-croix.com/images/0000/quien-era-el-apostol-tomas.jpg",
+                "isprofileimage": false
+            }
+        ]
+    },
+    {
+        "user_id": "user2",
+        "name": "Fernando",
+        "surname": "Vinuesa Dominguez",
+        "nickname": "fervinuesa",
+        "email": "fervinuesa@dogtorapp.com",
+        "phone": "+355551240",
+        "birthdate": "2020-10-02T01:11:18.965Z",
+        "Description":"Hola, soy un rider.",
+        "photos": [
+            {
+                "url": "https://thispersondoesnotexist.com/image",
+                "isprofileimage": true
+            },
+            {
+                "url": "https://es.la-croix.com/images/0000/quien-era-el-apostol-tomas.jpg",
+                "isprofileimage": false
+            }
+        ]
+    }
+]

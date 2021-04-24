@@ -1,0 +1,20 @@
+[
+{
+    "userid": "user1234",
+    "timestamp": {"$date":"2021-04-21T11:00:00"},
+    "posted_by":"user1111",
+    "text":"user always reply my questions"
+},
+{
+    "userid": "user1234",
+    "timestamp": {"$date":"2021-04-21T11:00:00"},
+    "posted_by":"mmoliner01",
+    "text":"user is an idiot" 
+},
+{
+    "userid":"user1",
+    "timestamp":{"$date":"2021-04-21T11:09:00"},
+    "posted_by":"mmoliner01",
+    "text":"User falls continuously"
+}
+]

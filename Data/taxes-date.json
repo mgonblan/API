@@ -1,0 +1,11 @@
+[
+    {
+        "dateprocess": "2021-04-17T09:36:59.301Z",
+        "Baseprize" : 2.50, 
+        "kmprize": 0.40,
+        "waitingtimeprize": 0.20,
+        "multiplicators":[{"rain":1.2,"snow":1.3,"wind":1.5,"alarm":2.0,"lowdemand":1.4}],
+        "newzones":6.5,
+        "finishorder":1
+    }
+]
