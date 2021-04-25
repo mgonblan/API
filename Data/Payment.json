@@ -9,7 +9,8 @@
     },
     {
         "category":"fare",
-        "amount":0,
+        "amount":0.0,
+        "currency_code":"EUR",
         "order_id":"mmoliner012021-04-22T13:49:00.000ZA-000001",
         "payment_processed":{"$date":"2021-04-22T13:57:00.000+00:00"},
         "payment_type":"credit card",
@@ -23,6 +24,7 @@
     {
         "category":"device_payment",
         "amount":0.5,
+        "currency_code":"EUR",
         "order_id":"mmoliner012021-04-22T13:49:00.000ZA-000001",
         "payment_processed":{"$date":"2021-04-22T13:57:00.000+00:00"},
         "payment_type":"credit card",
@@ -39,6 +41,7 @@
     {
         "category":"vehicle_payment",
         "amount":0.22,
+        "currency_code":"USD",
         "order_id":"mmoliner012021-04-22T13:49:00.000ZA-000001",
         "payment_processed":{"$date":"2021-04-22T13:57:00.000+00:00"},
         "payment_type":"credit card",
