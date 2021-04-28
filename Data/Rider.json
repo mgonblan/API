@@ -5,6 +5,16 @@
         "is_freelancer": true,
         "rate": 0.0,
         "review_count": 0,
+        "economic_data":[
+            {"IBAN":{"id":"ES7900752138997798198944","verif_document":"https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"}},
+            {"PAYPAL":{"id":"piglesias@podemos.es","validated_account":"true"}},
+            {"BIZUM":"@piglesias"}
+        ],
+        "professional_data":[
+            {"TIN":{"id":"1020129-X",
+                "anvers":"https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png",
+                "revers":"https://www.larazon.es/resizer/NnSuhqV42SHLNhIe1B_UZE1wNqY=/624x398/smart/filters:format(webp):quality(65)/cloudfront-eu-central-1.images.arcpublishing.com/larazon/SUXTQXL5KRHO5DGE7GN5GSZFVU.jpg"}}
+        ],
         "vehicles":["5346 DYW","5119 MZV"]
     }
 ]

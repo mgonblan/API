@@ -3,8 +3,28 @@
     "name": "Farmacia Goya 89",
     "url": "https://www.yelp.com/biz/farmacia-goya-89-madrid?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
     "owner_id": "user1234",
+    "economic_data": [
+      {
+        "IBAN": {
+          "id": "ES7900752138997798198944",
+          "verif_document": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"
+        }
+      },
+      {
+        "BIZUM": "@piglesias"
+      }
+    ],
+    "professional_data": [
+      {
+        "TIN": {
+          "id": "8234432X-L",
+          "anvers": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png",
+          "revers": "https://www.larazon.es/resizer/NnSuhqV42SHLNhIe1B_UZE1wNqY=/624x398/smart/filters:format(webp):quality(65)/cloudfront-eu-central-1.images.arcpublishing.com/larazon/SUXTQXL5KRHO5DGE7GN5GSZFVU.jpg"
+        }
+      }
+    ],
     "date_from_associated": {
-      "$date": "2021-04-13T01:00:00+01:00Z"
+      "$date": "2021-04-13"
     },
     "date_to_asociated": {
       "$date": "1970-01-01T01:00:00+01:00Z"
@@ -26,8 +46,8 @@
     "geopoint": {
       "type": "Point",
       "coordinates": [
-        40.42497,
-        -3.67616
+        -3.67616,
+        40.42497
       ]
     },
     "photos": [
@@ -45,44 +65,44 @@
         "hours_type": "REGULAR",
         "open": [
           {
-            "start": "0000",
-            "end": "0000",
+            "start": 0,
+            "end": 0,
             "day": 0,
             "is_overnight": true
           },
           {
-            "start": "0000",
-            "end": "0000",
+            "start": 0,
+            "end": 0,
             "day": 1,
             "is_overnight": true
           },
           {
-            "start": "0000",
-            "end": "0000",
+            "start": 0,
+            "end": 0,
             "day": 2,
             "is_overnight": true
           },
           {
-            "start": "0000",
-            "end": "0000",
+            "start": 0,
+            "end": 0,
             "day": 3,
             "is_overnight": true
           },
           {
-            "start": "0000",
-            "end": "0000",
+            "start": 0,
+            "end": 0,
             "day": 4,
             "is_overnight": true
           },
           {
-            "start": "0000",
-            "end": "0000",
+            "start": 0,
+            "end": 0,
             "day": 5,
             "is_overnight": true
           },
           {
-            "start": "0000",
-            "end": "0000",
+            "start": 0,
+            "end": 0,
             "day": 6,
             "is_overnight": true
           }
@@ -99,6 +119,26 @@
     "name": "Farmacía de La Paloma",
     "url": "https://www.yelp.com/biz/farmac%C3%ADa-de-la-paloma-madrid?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
     "owner_id": "admin1",
+    "economic_data": [
+      {
+        "IBAN": {
+          "id": "ES4004874281951449244294",
+          "verif_document": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"
+        }
+      },
+      {
+        "BIZUM": "@farmacia la paloma"
+      }
+    ],
+    "professional_data": [
+      {
+        "TIN": {
+          "id": "8234435N-L",
+          "anvers": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png",
+          "revers": "https://www.larazon.es/resizer/NnSuhqV42SHLNhIe1B_UZE1wNqY=/624x398/smart/filters:format(webp):quality(65)/cloudfront-eu-central-1.images.arcpublishing.com/larazon/SUXTQXL5KRHO5DGE7GN5GSZFVU.jpg"
+        }
+      }
+    ],
     "date_from_associated": {
       "$date": "2021-04-18T01:00:00+01:00Z"
     },
@@ -122,56 +162,59 @@
     "geopoint": {
       "type": "Point",
       "coordinates": [
-        40.412383,
-        -3.707953
+        -3.707953,
+        40.412383
       ]
     },
     "photos": [
-      "https://s3-media2.fl.yelpcdn.com/bphoto/EYtKI44daNv9sozjUzqQxw/o.jpg"
+      {
+        "url": "https://s3-media2.fl.yelpcdn.com/bphoto/EYtKI44daNv9sozjUzqQxw/o.jpg",
+        "is_profile_image": true
+      }
     ],
     "hours": [
       {
         "hours_type": "REGULAR",
         "open": [
           {
-            "start": "0930",
-            "end": "2300",
+            "start": 570,
+            "end": 1380,
             "day": 0,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2300",
+            "start": 570,
+            "end": 1380,
             "day": 1,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2300",
+            "start": 570,
+            "end": 1380,
             "day": 2,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2300",
+            "start": 570,
+            "end": 1380,
             "day": 3,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2300",
+            "start": 570,
+            "end": 1380,
             "day": 4,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2300",
+            "start": 570,
+            "end": 1380,
             "day": 5,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2300",
+            "start": 570,
+            "end": 1380,
             "day": 6,
             "is_overnight": false
           }
@@ -187,6 +230,26 @@
   {
     "name": "Farmacia Quintana",
     "owner_id": "admin1",
+    "economic_data": [
+      {
+        "IBAN": {
+          "id": "ES0901822819185235243457",
+          "verif_document": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"
+        }
+      },
+      {
+        "BIZUM": "@farmaciaquintana"
+      }
+    ],
+    "professional_data": [
+      {
+        "TIN": {
+          "id": "E88512702",
+          "anvers": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png",
+          "revers": "https://www.larazon.es/resizer/NnSuhqV42SHLNhIe1B_UZE1wNqY=/624x398/smart/filters:format(webp):quality(65)/cloudfront-eu-central-1.images.arcpublishing.com/larazon/SUXTQXL5KRHO5DGE7GN5GSZFVU.jpg"
+        }
+      }
+    ],
     "date_from_associated": {
       "$date": "2021-04-18T01:00:00+01:00Z"
     },
@@ -211,8 +274,8 @@
     "geopoint": {
       "type": "Point",
       "coordinates": [
-        40.42777,
-        -3.71788
+        -3.71788,
+        40.42777
       ]
     },
     "photos": [
@@ -226,38 +289,38 @@
         "hours_type": "REGULAR",
         "open": [
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 0,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 1,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 2,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 3,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 4,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 5,
             "is_overnight": false
           }
@@ -273,6 +336,17 @@
   {
     "name": "Farmacia José Alonso Gregorio",
     "owner_id": "user1234",
+    "economic_data": [
+      {
+        "IBAN": {
+          "id": "ES6214651852192115238947",
+          "verif_document": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"
+        }
+      },
+      {
+        "BIZUM": "@josegregorio"
+      }
+    ],
     "date_from_associated": {
       "$date": "2021-04-18T01:00:00+01:00Z"
     },
@@ -297,8 +371,8 @@
     "geopoint": {
       "type": "Point",
       "coordinates": [
-        40.38669,
-        -3.74224
+        -3.74224,
+        40.38669
       ]
     },
     "photos": [
@@ -316,38 +390,38 @@
         "hours_type": "REGULAR",
         "open": [
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 0,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 1,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 2,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 3,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 4,
             "is_overnight": false
           },
           {
-            "start": "0930",
-            "end": "2130",
+            "start": 570,
+            "end": 1290,
             "day": 5,
             "is_overnight": false
           }
@@ -363,6 +437,17 @@
   {
     "name": "Farmacia del Globo Carretas",
     "owner_id": "user1234",
+    "economic_data": [
+      {
+        "IBAN": {
+          "id": "ES3900752844375615393668",
+          "verif_document": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"
+        }
+      },
+      {
+        "BIZUM": "@globocarretas"
+      }
+    ],
     "date_from_associated": {
       "$date": "2021-04-18T01:00:00+01:00Z"
     },
@@ -387,8 +472,8 @@
     "geopoint": {
       "type": "Point",
       "coordinates": [
-        40.415216,
-        -3.70331
+        -3.70331,
+        40.415216
       ]
     },
     "photos": [
@@ -406,38 +491,38 @@
         "hours_type": "REGULAR",
         "open": [
           {
-            "start": "0900",
-            "end": "2100",
+            "start": 540,
+            "end": 1260,
             "day": 0,
             "is_overnight": false
           },
           {
-            "start": "0900",
-            "end": "2100",
+            "start": 540,
+            "end": 1260,
             "day": 1,
             "is_overnight": false
           },
           {
-            "start": "0900",
-            "end": "2100",
+            "start": 540,
+            "end": 1260,
             "day": 2,
             "is_overnight": false
           },
           {
-            "start": "0900",
-            "end": "2100",
+            "start": 540,
+            "end": 1260,
             "day": 3,
             "is_overnight": false
           },
           {
-            "start": "0900",
-            "end": "2100",
+            "start": 540,
+            "end": 1260,
             "day": 4,
             "is_overnight": false
           },
           {
-            "start": "0900",
-            "end": "2100",
+            "start": 540,
+            "end": 1260,
             "day": 5,
             "is_overnight": false
           }
@@ -449,5 +534,572 @@
     },
     "rating": 3.5,
     "review_count": 4
+  },
+  {
+    "name": "La Huevería del Ganso Ibérico",
+    "url": "https://www.yelp.com/biz/la-huever%C3%ADa-del-ganso-ib%C3%A9rico-madrid?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "economic_data": [
+      {
+        "IBAN": {
+          "id": "ES3614656385867154754674",
+          "verif_document": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"
+        }
+      },
+      {
+        "BIZUM": "@gansoiberico"
+      }
+    ],
+    "categories": [
+      {
+        "alias": "tapas",
+        "title": "Tapas Bars",
+        "parent_categories": [
+          {
+            "alias": "restaurants",
+            "title": "Restaurants"
+          }
+        ]
+      }
+    ],
+    "owner_id": "admin1",
+    "display_phone": "+34 685 99 66 31",
+    "date_from_associated": {
+      "$date": "2021-04-21"
+    },
+    "date_to_asociated": {
+      "$date": "1970-01-01T01:00:00+01:00Z"
+    },
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        -3.6996001,
+        40.414502
+      ]
+    },
+    "photos": [
+      {
+        "url": "https://s3-media4.fl.yelpcdn.com/bphoto/HNbhr48H_WjR8T3XicozxQ/o.jpg",
+        "is_profile_image": false
+      },
+      {
+        "url": "https://www.restaurantes.info/resize/logo/200x200/fotos/Logo_la_hueveria_del_gnso_1240162_169394316583449_2139649581_n_1_-j.jpg",
+        "is_profile_image": true
+      }
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": 0,
+            "end": 0,
+            "day": 0,
+            "is_overnight": true
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "day": 1,
+            "is_overnight": true
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "day": 2,
+            "is_overnight": true
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "day": 3,
+            "is_overnight": true
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "day": 4,
+            "is_overnight": true
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "day": 5,
+            "is_overnight": true
+          },
+          {
+            "start": 0,
+            "end": 0,
+            "day": 6,
+            "is_overnight": true
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Calle Echegaray, 26\n28014 Madrid\nSpain"
+    },
+    "rating": 3,
+    "review_count": 1
+  },
+  {
+    "name": "Huevería Pollería Javi",
+    "url": "https://www.yelp.com/biz/huever%C3%ADa-poller%C3%ADa-javi-madrid-2?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "owner_id": "admin1",
+    "economic_data": [
+      {
+        "IBAN": {
+          "id": "ES7600819925139627176648",
+          "verif_document": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"
+        }
+      },
+      {
+        "BIZUM": "@pollojavi"
+      }
+    ],
+    "date_from_associated": {
+      "$date": "2021-04-21"
+    },
+    "date_to_asociated": {
+      "$date": "1970-01-01T01:00:00+01:00Z"
+    },
+    "categories": [
+      {
+        "alias": "grocery",
+        "title": "Grocery",
+        "parent_categories": [
+          {
+            "alias": "food",
+            "title": "Food"
+          }
+        ]
+      }
+    ],
+    "display_phone": "",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        -3.745,
+        40.4050299
+      ]
+    },
+    "photos": [
+      {
+        "url": "https://s3-media1.fl.yelpcdn.com/bphoto/M0lZJDiIFBkw3zZpLgbrfA/o.jpg",
+        "is_profile_image": false
+      },
+      {
+        "url": "https://mercadodelcorregidor.com/wp-content/uploads/2019/09/polleria-hueveria-resti-01.jpg",
+        "is_profile_image": true
+      }
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": 600,
+            "end": 870,
+            "day": 0,
+            "is_overnight": false
+          },
+          {
+            "start": 1020,
+            "end": 1230,
+            "day": 0,
+            "is_overnight": false
+          },
+          {
+            "start": 600,
+            "end": 870,
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": 1020,
+            "end": 1230,
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": 600,
+            "end": 870,
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": 1020,
+            "end": 1230,
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": 600,
+            "end": 870,
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": 1020,
+            "end": 1230,
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": 600,
+            "end": 870,
+            "day": 4,
+            "is_overnight": false
+          },
+          {
+            "start": 1020,
+            "end": 1230,
+            "day": 4,
+            "is_overnight": false
+          },
+          {
+            "start": 600,
+            "end": 870,
+            "day": 5,
+            "is_overnight": false
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Galería Comercial El Camino, L 10\nCalle de Cebreros, 36\n28011 Madrid\nSpain"
+    },
+    "rating": 4,
+    "review_count": 1
+  },
+  {
+    "name": "Antigua",
+    "url": "https://www.yelp.com/biz/antigua-madrid?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "date_from_associated": {
+      "$date": "2021-04-21"
+    },
+    "date_to_asociated": {
+      "$date": "1970-01-01T01:00:00+01:00Z"
+    },
+    "economic_data": [
+      {
+        "IBAN": {
+          "id": "ES9320954475292844778319",
+          "verif_document": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"
+        }
+      },
+      {
+        "BIZUM": "@pollojavi"
+      }
+    ],
+    "owner_id": "admin1",
+    "categories": [
+      {
+        "alias": "spanish",
+        "title": "Spanish",
+        "parent_categories": [
+          {
+            "alias": "restaurants",
+            "title": "Restaurants"
+          }
+        ]
+      },
+      {
+        "alias": "tapas",
+        "title": "Tapas Bars",
+        "parent_categories": [
+          {
+            "alias": "restaurants",
+            "title": "Restaurants"
+          }
+        ]
+      },
+      {
+        "alias": "pubs",
+        "title": "Pubs",
+        "parent_categories": [
+          {
+            "alias": "bars",
+            "title": "Bars"
+          }
+        ]
+      }
+    ],
+    "display_phone": "+34 910 22 65 96",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        -3.704,
+        40.42581
+      ]
+    },
+    "photos": [
+      {
+        "url": "https://s3-media1.fl.yelpcdn.com/bphoto/lA5Jj864j4NFre2D2vy4zQ/o.jpg",
+        "is_profile_image": true
+      },
+      {
+        "url": "https://cdn.website.dish.co/media/59/f3/1258470/Antigua-Hueveria-IMG-20190308-175337.jpg",
+        "is_profile_image": false
+      }
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": 1020,
+            "end": 0,
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": 1020,
+            "end": 0,
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": 1020,
+            "end": 0,
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": 1020,
+            "end": 150,
+            "day": 4,
+            "is_overnight": true
+          },
+          {
+            "start": 750,
+            "end": 150,
+            "day": 5,
+            "is_overnight": true
+          },
+          {
+            "start": 750,
+            "end": 1020,
+            "day": 6,
+            "is_overnight": false
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Calle San Vicente Ferrer, 32\n28004 Madrid\nSpain"
+    },
+    "rating": 4,
+    "review_count": 10
+  },
+  {
+    "name": "Casa Mónica",
+    "url": "https://www.yelp.com/biz/casa-m%C3%B3nica-madrid-3?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "date_from_associated": {
+      "$date": "2021-04-21"
+    },
+    "date_to_asociated": {
+      "$date": "1970-01-01T01:00:00+01:00Z"
+    },
+    "economic_data": [
+      {
+        "IBAN": {
+          "id": "ES5631905196738669652384",
+          "verif_document": "https://firmaelectronica.gob.es/dam/jcr:ebeef0a9-eb17-4a3f-83ea-8e3f426abfb6/anverso_3.png"
+        }
+      },
+      {
+        "BIZUM": "@pollojavi"
+      }
+    ],
+    "owner_id": "admin1",
+    "categories": [
+      {
+        "alias": "bakeries",
+        "title": "Bakeries",
+        "parent_categories": [
+          {
+            "alias": "food",
+            "title": "Food"
+          }
+        ]
+      }
+    ],
+    "display_phone": "+34 914 35 11 17",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        -3.68579,
+        40.42772
+      ]
+    },
+    "photos": [
+      {
+        "url": "https://s3-media1.fl.yelpcdn.com/bphoto/USZj7iea_aaKEsMPmaev8g/o.jpg",
+        "is_profile_image": true
+      }
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": 540,
+            "end": 1230,
+            "day": 0,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 1230,
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 1230,
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 1230,
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 1230,
+            "day": 4,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 1230,
+            "day": 5,
+            "is_overnight": false
+          },
+          {
+            "start": 600,
+            "end": 1080,
+            "day": 6,
+            "is_overnight": false
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Calle de Ayala, 28\n28001 Madrid\nSpain"
+    },
+    "rating": 4,
+    "review_count": 2
+  },
+  {
+    "name": "Mercado de la Cebada",
+    "url": "https://www.yelp.com/biz/mercado-de-la-cebada-madrid-2?adjust_creative=V2TsSJT0OiysxBFiKtYd6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=V2TsSJT0OiysxBFiKtYd6Q",
+    "owner_id": "admin1",
+    "categories": [
+      {
+        "alias": "farmersmarket",
+        "title": "Farmers Market",
+        "parent_categories": [
+          {
+            "alias": "food",
+            "title": "Food"
+          }
+        ]
+      }
+    ],
+    "display_phone": "+34 913 66 69 66",
+    "geopoint": {
+      "type": "Point",
+      "coordinates": [
+        -3.709822,
+        40.411134
+      ]
+    },
+    "photos": [
+      {
+        "url": "https://s3-media3.fl.yelpcdn.com/bphoto/eNIJ7S9jBReBlhrKoihftg/o.jpg",
+        "is_profile_image": true
+      }
+    ],
+    "hours": [
+      {
+        "hours_type": "REGULAR",
+        "open": [
+          {
+            "start": 540,
+            "end": 840,
+            "day": 0,
+            "is_overnight": false
+          },
+          {
+            "start": 1050,
+            "end": 1230,
+            "day": 0,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 840,
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": 1050,
+            "end": 1230,
+            "day": 1,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 840,
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": 1050,
+            "end": 1230,
+            "day": 2,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 840,
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": 1050,
+            "end": 1230,
+            "day": 3,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 840,
+            "day": 4,
+            "is_overnight": false
+          },
+          {
+            "start": 1050,
+            "end": 1230,
+            "day": 4,
+            "is_overnight": false
+          },
+          {
+            "start": 540,
+            "end": 900,
+            "day": 5,
+            "is_overnight": false
+          }
+        ]
+      }
+    ],
+    "location": {
+      "formatted_address": "Plaza de la Cebada, s/n\n28005 Madrid\nSpain"
+    },
+    "rating": 4.5,
+    "review_count": 16
   }
 ]
