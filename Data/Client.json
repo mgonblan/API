@@ -1,10 +1,11 @@
 [
     {
-        "user_id":"user1111",
-        "promotional_code":"dogtort4544ue"  
+        "_id":"user1111",
+        "social_networks":[{"name":"facebook","username":"facebook.com/benitofloro"},{"name":"instagram","username":"@benitofloro"}]
+
     },
     {
-     "user_id": "mmoliner01",
-     "promotional_code":"dogtort4545ue"
+     "_id": "mmoliner01",
+     "social_networks":[{"name":"facebook","username":"facebook.com/mmoliner"},{"name":"instagram","username":"@mmoliner"}]
     }
 ]

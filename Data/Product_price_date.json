@@ -1,44 +1,58 @@
 [
-{
-  "business_id":{"$oid": "607f1223434e7c246f297d1d"},
-  "sku":"CEP-MED-BAM-ECO",
-  "price": 2.099,
-  "date": {"$date":"2021-03-14T01:00:00+01:00"}
-},
-{
-    "business_id":{"$oid": "607f1223434e7c246f297d1d"},
-    "sku": "CEP-MED-BAM-ECO",
+  {
+    "business_id": "8234432X-L",
+    "product_id": "K55MC6G",
+    "price": 2.099,
+    "date": {
+      "$date": "2021-03-14T01:00:00+01:00"
+    }
+  },
+  {
+    "business_id": "8234432X-L",
+    "product_id": "K55MC6G",
     "price": 3.099,
-    "date": {"$date":"2021-03-14T01:00:00+01:00"}
+    "date": {
+      "$date": "2021-03-15T01:00:00+01:00"
+    }
   },
   {
-      "business_id":{"$oid":"607f1223434e7c246f297d19"},
-      "sku": "CEP-MED-BAM-ECO",
-      "price":11.21,
-      "date":{ "$date":"2020-04-22T01:00:00+01:00"}
+    "business_id": "M07599285",
+    "product_id": "WUJevWt",
+    "price": 11.21,
+    "date": {
+      "$date": "2020-04-22T01:00:00+01:00"
+    }
   },
   {
-    "business_id":{"$oid":"607f1223434e7c246f297d1b"},
-    "sku": "COL-PRO-FRE-ROJ",
-    "price":10.07,
-    "date":{"$date":"2021-04-22T02:00:00+01:00"}
-},
-{
-  "business_id":{"$oid":"60801840434e7c246f297d22"},
-  "sku": "HUE-CAM-MOR-M",
-  "price":10.07,
-  "date":{"$date":"2021-04-22T02:00:00+01:00"}
-},
-{
-  "business_id":{"$oid":"60801840434e7c246f297d22"},
-  "sku": "HUE-CAM-MOR-L",
-  "price":9.07,
-  "date":{"$date":"$currentDate"}
-},
-{
-  "business_id":{"$oid":"60801840434e7c246f297d22"},
-  "sku": "HUE-CAM-MOR-S",
-  "price":8.07,
-  "date":{"$date":"$currentDate"} 
-}
+    "business_id": "M07599285",
+    "product_id": "WUJevWt",
+    "price": 10.07,
+    "date": {
+      "$date": "2021-04-22T02:00:00+01:00"
+    }
+  },
+  {
+    "business_id": "M07599285",
+    "product_id": "53Djzfx",
+    "price": 10.07,
+    "date": {
+      "$date": "2021-04-22T02:00:00+01:00"
+    }
+  },
+  {
+    "business_id": "N39707757",
+    "product_id": "HJhOoHt",
+    "price": 9.07,
+    "date": {
+      "$date": "$currentDate"
+    }
+  },
+  {
+    "business_id": "N39707757",
+    "product_id": "HJhOoHt",
+    "price": 8.07,
+    "date": {
+      "$date": "$currentDate"
+    }
+  }
 ]

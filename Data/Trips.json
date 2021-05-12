@@ -1,84 +1,84 @@
 [
     {
-        "rider_id": "user1",
-        "storedroute": {
-            "type": "LineString",
-            "coordinates": [
-                [
-                    40.349005,
-                    -3.706982
-                ],
-                [
-                    40.350192,
-                    -3.706236
-                ]
-            ]
+        "trip_id":"user15346 DYW2021-04-22T13:49:00.000ZA-000001",
+        "rider_id":"user1",
+        "date_started":{
+            "$date":"2021-04-22T13:50:49:00.000Z"
         },
-        "status_changes": [
+        "events":[
             {
-                "status": "order_accepted",
-                "order_id": "mmoliner012021-04-22T13:49:00.000ZA-000001",
-                "timestamp": {
-                    "$date": "2021-04-22T12:32:00"
+                "name":"Business_1",
+                "date_event":{
+                    "$date":"2021-04-22T13:50:49:00.000Z"
+                },
+                "description":"User has to wait",
+                "point":{
+                    "type": "Point",
+                    "coordinates":[-3.67616,40.42497]
                 }
             },
             {
-                "status": "trip_began",
-                "timestamp": {
-                    "$date": "2021-04-22T12:31:00"
+                "name":"Business_2",
+                "date_event":{
+                    "$date":"2021-04-22T13:50:49:00.000Z"
+                },
+                "description":"User has not to wait",
+                "point":{
+                    "type": "Point",
+                    "coordinates":[-3.71788,40.42777]
                 }
             },
             {
-                "status": "incident",
-                "timestamp": {
-                    "$date": "2021-04-22T12:33:00"
+                "name":"user_received_order",
+                "date_event":{
+                    "$date":"2021-04-22T14:00:49:00.000Z"
                 },
-                "properties": [
-                    {
-                        "description": "Multa por exceso de velocidad",
-                        "categories": [
-                            {
-                                "title": "velocity exceded penalty",
-                                "alias": "velocity_exceded",
-                                "parent_categories": [
-                                    {
-                                        "title": "penalties",
-                                        "alias": "penalties"
-                                    }
-                                ]
-                            }
-                        ],
-                        "amount": 300
-                    }
-                ]
+                "description":"Rider arrived",
+                "point":{
+                    "type":"Point",
+                    "coordinates":[-3.7110957,40.348467]
+                }
+            }
+        ]
+    },
+    {
+        "trip_id":"user15346 DYW2021-04-22T13:50:49.000+00:00A-000002",
+        "rider_id":"user1",
+        "date_started":{
+            "$date":"2021-04-22T13:50:49.000+00:00"
+        },
+        "events":[
+            {
+                "name":"Business_1",
+                "date_event":{
+                    "$date":"2021-04-22T13:50:49.000+00:00"
+                },
+                "description":"User has to wait",
+                "point":{
+                    "type":"Point",
+                    "coordinates":[-3.71788,40.42777]
+                }
             },
             {
-                "status": "incident",
-                "timestamp": {
-                    "$date": "2021-04-22T12:33:00"
+                "name":"Business_2",
+                "date_event":{
+                    "$date":"2021-04-22T14:00.000+00:00"
                 },
-                "properties": [
-                    {
-                        "description": "Rider se mareó en el coche, va al hospital",
-                        "categories": [
-                            {
-                                "title": "proffessional illness",
-                                "alias": "professional_illness",
-                                "parent_categories": [
-                                    {
-                                        "title": "health",
-                                        "alias": "health"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "description":"User has not to wait",
+                "point":{
+                    "type":"Point",
+                    "coordinates":[-3.709822,40.411134]
+                }
             },
             {
-                "status":"order_arrived",
-                "timestamp": {
-                    "$date": "2021-04-22T13:33:00"
+                "name":"user_received_order",
+                "date_event":{
+                    "$date":"2021-04-22T14:30.000+00:00"
+                },
+                "description":"Rider arrived",
+                "point":{
+                    "type":"Point",
+                    "coordinates":[-3.7056721,40.4169019]
                 }
             }
         ]

@@ -1,256 +1,339 @@
-[{
-  "user_id": "admin1",
-  "role": "admin",
-  "date_from": {
-    "$date": "2021-04-18T00:00:00Z"
-  },
-  "date_to": {
-    "$date": "1970-01-01T00:00:00Z"
-  },
-  "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23",
-  "personal_data": {
-    "full_name": "Florentino Perez",
-    "email": "florentinoperez@axpe.com",
-    "gender": "cis-male",
-    "phone": "(+34) 655 549 201",
-    "pronouns": [
-      "he",
-      "him"
-    ],
-    "user_images": [
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": true
-      },
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": false
-      }
-    ]
-  }
-},{
-  "user_id": "user1234",
-  "role": "admin",
-  "date_from": {
-    "$date": "1970-01-01T00:00:00Z"
-  },
-  "date_to": {
-    "$date": "1970-01-01T00:00:00Z"
-  },
-  "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23",
-  "personal_data": {
-    "full_name": "Pedro María de Santiago",
-    "email": "pmariadesantiago@axpe.com",
-    "phone": "(+34) 665 183 540",
-    "gender": "cis-male",
-    "pronouns": [
-      "he",
-      "him"
-    ],
-    "user_images": [
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": true
-      },
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": false
-      }
-    ]
-  }
-},{
-  "user_id": "user1",
-  "role": "rider",
-  "personal_data": {
-    "full_name": "Pablo Iglesias Turión",
-    "private_email": "piglesias@podemos.es",
-    "profile_email": "piglesias@dogtorapp.com",
-    "phone": "(+34) 655 593 331",
-    "identification_numbers": [
-      {
-        "kind": "DNI",
-        "id_number": "00699585V",
-        "image_document": {
-          "anvers": "https://www.dnielectronico.es/img/DNI3_anverso.bmp",
-          "revers": "https://www.dnielectronico.es/img/DNI3_reverso.bmp"
-        }
-      },
-      {
-        "kind": "Driver_License",
-        "id_number": "00699585V",
-        "category": "A",
-        "image_document": {
-          "anvers": "https://espirituracer.com/archivos/2017/11/carnet-conducir-f1-anverso-855x542.jpg",
-          "revers": "https://espirituracer.com/archivos/2017/11/carnet-conducir-f1-reverso.jpg"
-        }
-      }
-    ],
-    "user_images": [
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": true
-      },
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": false
-      }
-    ]
-  },
-  "date_from": {
-    "$date": "2021-04-13T00:00:00Z"
-  },
-  "date_to": {
-    "$date": "1970-01-01T00:00:00Z"
-  },
-  "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23"
-},{
-  "user_id": "user1111",
-  "role": "client",
-  "date_from": {
-    "$date": "1970-01-01T00:00:00Z"
-  },
-  "date_to": {
-    "$date": "1970-01-01T00:00:00Z"
-  },
-  "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23",
-  "personal_data": {
-    "full_name": "Benito Floro",
-    "email": "benitofloro@gmail.com",
-    "phone": "(+34) 755 590 501",
-    "birthdate": "1981-04-18T16:00:00",
-    "gender": "trans-male",
-    "Address": {
-      "line1": "Calle Oca 22",
-      "Postal_cpde": " 28025",
-      "city": "Madrid"
+[
+  {
+    "_id": "admin1",
+    "role": "admin",
+    "date_from": {
+      "$date": "2021-04-18T00:00:00Z"
     },
-    "user_images": [
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": true
-      },
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": false
-      }
-    ]
-  }
-},{
-  "user_id": "user2",
-  "role": "rider",
-  "personal_data": {
-    "full_name": "Nicolás Maduro Moro",
-    "private_email": "nicolasmaduro@gobierno.com.ve",
-    "profile_email": "nacolasmaduro@dogtorapp.com",
-    "phone": "(+34) 655 533 100",
-    "identification_numbers": [
-      {
-        "kind": "NIE",
-        "id_number": "Y4266031G",
-        "image_document": {
-          "anvers": "https://e-autonomos.es/wp-content/uploads/permiso_residencia.png",
-          "revers": "https://www.parainmigrantes.info/wp-content/uploads/2020/07/Captura-de-pantalla-2020-07-02-a-las-12.30.21.png"
+    "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23",
+    "personal_data": {
+      "full_name": "Florentino Perez",
+      "email": "florentinoperez@axpe.com",
+      "gender": "cis-male",
+      "phone": "(+34) 655 549 201",
+      "pronouns": [
+        "he",
+        "him"
+      ],
+      "user_images": [
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": true
+        },
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": false
         }
-      },
-      {
-        "kind": "Driver_License",
-        "id_number": "Y4266031G",
-        "category": "F",
-        "image_document": {
-          "anvers": "https://espirituracer.com/archivos/2017/11/carnet-conducir-f1-anverso-855x542.jpg",
-          "revers": "https://espirituracer.com/archivos/2017/11/carnet-conducir-f1-reverso.jpg"
-        }
-      }
-    ],
-    "user_images": [
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": true
-      },
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": false
-      }
-    ]
-  },
-  "date_from": {
-    "$date": "2021-04-13T00:00:00Z"
-  },
-  "date_to": {
-    "$date": "1970-01-01T00:00:00Z"
-  },
-  "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23"
-},{
-  "user_id": "mmoliner01",
-  "role": "client",
-  "date_from": {
-    "$date": "2021-04-21T00:00:00Z"
-  },
-  "date_to": {
-    "$date": "1970-01-01T00:00:00Z"
-  },
-  "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23",
-  "personal_data": {
-    "full_name": "María Moliner",
-    "email": "mmoliner@gmail.com",
-    "phone": "(+34) 655 590 999",
-    "birthdate": "1981-04-18T16:00:00",
-    "gender": "male",
-    "pronouns": [
-      "he",
-      "him"
-    ],
-    "Address": {
-      "line1": "Calle mastin 22",
-      "Postal_cpde": " 28027",
-      "city": "Madrid"
+      ]
     },
-    "user_images": [
+    "professional_data":{
+      "payment_methods":[
+        {"bizum":"@florentinoperez"},
+        {"paypal":"florentinoperez"}
+      ],
+      "identification_numbers":[
+        {
+          "document_type":"NIF",
+          "id":"46520446W",
+          "doc_images":{"anvers":"https://www.dnielectronico.es/img/DNI3_anverso.bmp","revers":"https://www.dnielectronico.es/img/DNI3_reverso.bmp"}
+        },
+        {
+          "document_type":"CIF",
+          "id":"G48047955",
+          "doc_images":{"anvers":"https://gmlawyers.es/wp-content/uploads/2019/10/CIF-number-spain.jpg","revers":"https://gmlawyers.es/wp-content/uploads/2019/10/CIF-number-spain.jpg"}
+        }
+      ]
+    }
+  },
+  {
+    "_id": "user1234",
+    "role": "admin",
+    "date_from": {
+      "$date": "2021-01-01T00:00:00Z"
+    },
+    "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23",
+    "personal_data": {
+      "full_name": "Pedro María de Santiago",
+      "email": "pmariadesantiago@axpe.com",
+      "phone": "(+34) 665 183 540",
+      "gender": "cis-male",
+      "pronouns": [
+        "he",
+        "him"
+      ],
+      "user_images": [
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": true
+        },
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": false
+        }
+      ]
+    },
+    "professional_data":{
+      "payment_methods":[
+        {"bizum":"@pmariadesantiago"},
+        {"paypal":"pmariadesantiago"}
+      ],
+      "identification_numbers":[
+        {
+          "document_type":"NIF",
+          "id":"17213374J",
+          "doc_images":{"anvers":"https://www.dnielectronico.es/img/DNI3_anverso.bmp","revers":"https://www.dnielectronico.es/img/DNI3_reverso.bmp"}
+        },
+        {
+          "document_type":"CIF",
+          "id":"A00807917",
+          "doc_images":{"anvers":"https://gmlawyers.es/wp-content/uploads/2019/10/CIF-number-spain.jpg","revers":"https://gmlawyers.es/wp-content/uploads/2019/10/CIF-number-spain.jpg"}
+        }
+      ]
+    }
+  },
+  {
+    "_id": "user1",
+    "role": "rider",
+    "date_from": {
+      "$date": "2021-04-13T00:00:10.000Z"
+    },
+    "personal_data": {
+      "full_name": "Pablo Iglesias Turión",
+      "private_email": "piglesias@podemos.es",
+      "profile_email": "piglesias@dogtorapp.com",
+      "phone": "(+34) 655 593 331",
+      "identification_numbers": [
+        {
+          "kind": "DNI",
+          "id_number": "00699585V",
+          "image_document": {
+            "anvers": "https://www.dnielectronico.es/img/DNI3_anverso.bmp",
+            "revers": "https://www.dnielectronico.es/img/DNI3_reverso.bmp"
+          }
+        },
+        {
+          "kind": "Driver_License",
+          "id_number": "00699585V",
+          "category": "A",
+          "image_document": {
+            "anvers": "https://espirituracer.com/archivos/2017/11/carnet-conducir-f1-anverso-855x542.jpg",
+            "revers": "https://espirituracer.com/archivos/2017/11/carnet-conducir-f1-reverso.jpg"
+          }
+        }
+      ],
+      "user_images": [
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": true
+        },
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": false
+        }
+      ]
+ },
+  "professional_data":{
+    "payment_methods":[
+      {"bizum":"@piglesias"},
+      {"paypal":"piglesias"}
+    ],
+    "identification_numbers":[
       {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": true
-      },
-      {
-        "url": "https://thispersondoesnotexist.com/image",
-        "is_profile_image": false
+        "document_type":"NIF",
+        "id":"00699585V",
+        "doc_images":{"anvers":"https://www.dnielectronico.es/img/DNI3_anverso.bmp","revers":"https://www.dnielectronico.es/img/DNI3_reverso.bmp"}
       }
     ]
-  }
-},{
-  "user_id": "pepe01",
-  "password": "pepe01",
-  "personal_data": {
-    "gender": "cis-male",
-    "phone": "+34 665 183 540",
-    "profile_email": "pepeperez@dogtorapp.com",
-    "full_name": "Pepe Perez"
   },
-  "role": "rider",
-  "date_from": {
-    "$date": "2021-04-23T12:05:00Z"
-  }
-},{
-  "user_id": "filibustero234",
-  "date_from": {
-    "$date": "2021-04-21T00:00:00Z"
-  },
-  "password": "eusebio01",
-  "personal_data": {
-    "full_name": "Eusebio de los dolores",
-    "gender": "trans-male",
-    "phone": "+34 666 125 834",
-    "email": "eugarcia@gmail.com",
-    "identification_numbers": [
-      {
-        "kind": "DNI",
-        "id_number": "86145369L",
-        "image_document": {
-          "anvers": "https://www.dnielectronico.es/img/DNI3_anverso.bmp",
-          "revers": "https://www.dnielectronico.es/img/DNI3_reverso.bmp"
+  "vehicles": [
+    "5346 DYW",
+    "5119 MZV"
+ ],
+  "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23"
+},
+  {
+    "_id": "user1111",
+    "role": "client",
+    "date_from": {
+      "$date": "1981-01-01T00:00:00Z"
+    },
+    "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23",
+    "personal_data": {
+      "full_name": "Benito Floro",
+      "email": "benitofloro@gmail.com",
+      "phone": "(+34) 755 590 501",
+      "birthdate": "1981-04-18T16:00:00",
+      "gender": "trans-male",
+      "Address": {
+        "line1": "Calle Oca 22",
+        "Postal_cpde": " 28025",
+        "city": "Madrid"
+      },
+      "user_images": [
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": true
+        },
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": false
         }
-      }
-    ],
-    "profile_email": "eugarcia@dogtorapp.com"
+      ]
+    }
   },
-  "role": "rider"
-}]
+  {
+    "_id": "user2",
+    "role": "rider",
+    "personal_data": {
+      "full_name": "Nicolás Maduro Moro",
+      "private_email": "nicolasmaduro@gobierno.com.ve",
+      "profile_email": "nicolasmaduro@dogtorapp.com",
+      "phone": "(+34) 655 533 100",
+      "identification_numbers": [
+        {
+          "kind": "NIE",
+          "id_number": "Z7030901J",
+          "image_document": {
+            "anvers": "https://e-autonomos.es/wp-content/uploads/permiso_residencia.png",
+            "revers": "https://www.parainmigrantes.info/wp-content/uploads/2020/07/Captura-de-pantalla-2020-07-02-a-las-12.30.21.png"
+          }
+        },
+        {
+          "kind": "Driver_License",
+          "id_number": "Y4266031G",
+          "category": "F",
+          "image_document": {
+            "anvers": "https://espirituracer.com/archivos/2017/11/carnet-conducir-f1-anverso-855x542.jpg",
+            "revers": "https://espirituracer.com/archivos/2017/11/carnet-conducir-f1-reverso.jpg"
+          }
+        }
+      ],
+      "user_images": [
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": true
+        },
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": false
+        }
+      ]
+    },
+    "date_from": {
+      "$date": "2021-04-13T00:00:00Z"
+    },
+    "date_to": {
+      "$date": "2021-05-11T00:00:00Z"
+    },
+    "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23",
+    "professional_data": {
+      "payment_methods":[
+        {
+          "paypal":"nicolasmaduro"
+        },
+        {
+          "BIZUM": "@Nicolasmaduro"
+        }
+      ],
+      "identification_numbers":[
+        {
+          "document_type":"NIE",
+          "id":"Z7030901J",
+          "doc_images":{"anvers":"https://www.dnielectronico.es/img/DNI3_anverso.bmp","revers":"https://www.dnielectronico.es/img/DNI3_reverso.bmp"}
+        }
+      ]
+    }
+  },
+  {
+    "_id": "mmoliner01",
+    "role": "client",
+    "date_from": {
+      "$date": "2021-04-21T00:00:00Z"
+    },
+    "password": "a4d3d2b6dd227d2bea3c1aa6fa58a49dac398169b8e848cc9ce18c04aa917a23",
+    "personal_data": {
+      "full_name": "María Moliner",
+      "email": "mmoliner@gmail.com",
+      "phone": "(+34) 655 590 999",
+      "birthdate": "1981-04-18T16:00:00",
+      "gender": "male",
+      "pronouns": [
+        "he",
+        "him"
+      ],
+      "Address": {
+        "line1": "Calle mastin 22",
+        "Postal_cpde": " 28027",
+        "city": "Madrid"
+      },
+      "user_images": [
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": true
+        },
+        {
+          "url": "https://thispersondoesnotexist.com/image",
+          "is_profile_image": false
+        }
+      ]
+    }
+  },
+  {
+    "_id": "pepe01",
+    "password": "pepe01",
+    "personal_data": {
+      "gender": "cis-male",
+      "phone": "+34 665 183 540",
+      "profile_email": "pepeperez@dogtorapp.com",
+      "full_name": "Pepe Perez"
+    },
+    "role": "rider",
+    "date_from": {
+      "$date": "2021-04-23T12:05:00Z"
+    },
+    "date_to":{"$date":"2021-04-23T12:05:00Z"}
+  },
+  {
+    "_id": "filibustero234",
+    "date_from": {
+      "$date": "2021-04-21T00:00:00Z"
+    },
+    "password": "eusebio01",
+    "personal_data": {
+      "full_name": "Eusebio de los dolores",
+      "gender": "trans-male",
+      "phone": "+34 666 125 834",
+      "email": "eugarcia@gmail.com",
+      "identification_numbers": [
+        {
+          "kind": "DNI",
+          "id_number": "86145369L",
+          "image_document": {
+            "anvers": "https://www.dnielectronico.es/img/DNI3_anverso.bmp",
+            "revers": "https://www.dnielectronico.es/img/DNI3_reverso.bmp"
+          }
+        }
+      ],
+      "profile_email": "eugarcia@dogtorapp.com"
+    },
+    "professional_data":{
+      "payment_methods":[
+        {"bizum":"@eugarcia"},
+        {"paypal":"eugarcia"}
+      ],
+      "identification_numbers":[
+        {
+          "document_type":"NIF",
+          "id":"86145369L",
+          "doc_images":{"anvers":"https://www.dnielectronico.es/img/DNI3_anverso.bmp","revers":"https://www.dnielectronico.es/img/DNI3_reverso.bmp"}
+        },
+        {
+          "document_type":"CIF",
+          "id":"G48047955",
+          "doc_images":{"anvers":"https://gmlawyers.es/wp-content/uploads/2019/10/CIF-number-spain.jpg","revers":"https://gmlawyers.es/wp-content/uploads/2019/10/CIF-number-spain.jpg"}
+        }
+      ]
+    },
+    "role": "rider"
+  }
+]
