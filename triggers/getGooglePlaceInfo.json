@@ -1,0 +1,30 @@
+{
+    "id": "60ebf0a620aea972109c53ff",
+    "name": "getGooglePlaceInfo",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT",
+            "UPDATE",
+            "REPLACE"
+        ],
+        "database": "DogtorDb",
+        "collection": "Business",
+        "service_name": "mongodb-atlas",
+        "match": {
+            "fullDocument.name": {
+                "$exists": true
+            },
+            "fullDocument.isReferencedOnGoogle": true,
+            "fullDocument.googlePlaceInfo": {
+                "$exists": false
+            }
+        },
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": false,
+        "unordered": false
+    },
+    "function_name": "getGooglePlaceInfo",
+    "disabled": false
+}

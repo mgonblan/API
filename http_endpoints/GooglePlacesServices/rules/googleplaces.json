@@ -1,0 +1,13 @@
+{
+    "name": "googleplaces",
+    "actions": [
+        "get"
+    ],
+    "when": {
+        "%%args.url.host": {
+            "%in": [
+                "google.com"
+            ]
+        }
+    }
+}
