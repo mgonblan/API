@@ -1,0 +1,18 @@
+{
+    "collection": "Business",
+    "database": "DogtorDb",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "propietary_user": "%%user.id"
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
