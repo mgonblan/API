@@ -1,5 +1,5 @@
 {
-    "id": "60ec112d03a609a0bdf10cee",
+    "id": "60ec178aa35b015a99b93187",
     "name": "getBusinessInfo",
     "type": "DATABASE",
     "config": {
@@ -15,8 +15,11 @@
             "fullDocument.name": {
                 "$exists": true
             },
+            "fullDocument.location": {
+                "$exists": true
+            },
             "fullDocument.validatedinyelp": true,
-            "fullDocument.BusinessInfo": {
+            "fullDocument.businessInfo": {
                 "$exists": false
             }
         },
