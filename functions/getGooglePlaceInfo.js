@@ -36,7 +36,7 @@ exports = function(changeEvent) {
               // ACTION REQUIRED BELOW: Replace database name and collection name so it matches yours
               // WHAT THIS DOES: Uses Google Places info and pushes it to MongoDB Document. This also reformats Google Places Geo info to make it GeoJSON-ready
               // All fields added to the queryFields will be pushed to the MongoDB document inside the nested document googlePlaceInfo
-              var collection = context.services.get("mongodb-atlas").db("mycompany").collection("mycustomers");
+              var collection = context.services.get("mongodb-atlas").db("DogtorDb").collection("Business");
               collection.updateOne(
                 {"_id":fullDocument._id},
                 {$set:{
