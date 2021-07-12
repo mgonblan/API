@@ -42,12 +42,7 @@ exports = function(changeEvent) {
                   {"_id":fullDocument._id},
                   {$set:{
                     "populatedOn":Date(),
-                    "businessInfo":details_result.result,
-                    "coordinates.type":"Point"},
-                    $push:{ "coordinates" : {$each:
-                      [details_result.result.latitude,
-                      details_result.result.longitude]}}
-                    });
+                    "businessInfo":details_result.result}});
             });
       });
   };
