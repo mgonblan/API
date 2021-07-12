@@ -44,7 +44,7 @@ exports = function(changeEvent) {
                     "populatedOn":Date(),
                     "businessInfo":details_result.result,
                     "coordinates.type":"Point"},
-                    $push:{ "coordinates.coordinates" : {$each:
+                    $push:{ "coordinates" : {$each:
                       [details_result.result.latitude,
                       details_result.result.longitude]}}
                     });
