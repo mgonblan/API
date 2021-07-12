@@ -3,6 +3,7 @@
     "run_as_authed_user": false,
     "run_as_user_id": "",
     "run_as_user_id_script_source": "",
+    "can_evaluate": {},
     "options": {
         "httpMethod": "GET",
         "secret": "22pD2RxDY6W-ddNKWtzVZ-SPQpr_p820mU4o8tocZBEEQlS8UT1eVJyT-jpdNhuRv1qkt-aJCbfT021XZr2UACA2CGtGqqCRW4zIevNJAJRjMZDJAvpYV_f1INbqYHYx",

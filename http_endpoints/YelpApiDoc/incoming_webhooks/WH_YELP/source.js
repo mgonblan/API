@@ -18,7 +18,7 @@ exports = function(payload, response) {
 
     // You can use 'context' to interact with other Realm features.
     // Accessing a value:
-    // var x = context.values.get("value_name");
+    var x = context.values.get("YelpAPIKey");
 
     // Querying a mongodb service:
     // const doc = context.services.get("mongodb-atlas").db("dbname").collection("coll_name").findOne();
