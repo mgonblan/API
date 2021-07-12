@@ -29,11 +29,7 @@ exports = function(changeEvent) {
           // ACTION REQUIRED BELOW: Replace "GooglePlaces" by the name of the Stitch HTTP GET Service you created.
           const http = context.services.get("YelpApiDoc");
           return http
-            .get({url: GoogleDetailsURL,
-                  headers: {
-                    "Authorization":"Bearer "+context.values.get("YelpAPIKey")
-                  }
-            })
+            .get({url: GoogleDetailsURL})
             .then(resp=>{
                 //The response body is encoded as raw BSON.Binary. Parse it to JSON.
                 var details_result = EJSON.parse(resp.body.text());
