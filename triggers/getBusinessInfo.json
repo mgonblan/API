@@ -1,6 +1,6 @@
 {
-    "id": "60ebf77bd8e2e6f4f7abe5e0",
-    "name": "getGooglePlaceInfo",
+    "id": "60ec112d03a609a0bdf10cee",
+    "name": "getBusinessInfo",
     "type": "DATABASE",
     "config": {
         "operation_types": [
@@ -12,12 +12,12 @@
         "collection": "Business",
         "service_name": "mongodb-atlas",
         "match": {
-            "fullDocument.googlePlaceInfo": {
-                "$exists": false
-            },
-            "fullDocument.isReferencedOnGoogle": true,
             "fullDocument.name": {
                 "$exists": true
+            },
+            "fullDocument.validatedinyelp": true,
+            "fullDocument.BusinessInfo": {
+                "$exists": false
             }
         },
         "project": {},

@@ -6,14 +6,15 @@ exports = function(changeEvent) {
     // ACTION REQUIRED BELOW: Replace "name" by whatever field name you are using to contain the searchable business name information
     // WHAT THIS DOES: The field "name" probably contains spaces. The following makes it usable as a URL by replacing spaces by %20.
     searchableName = encodeURIComponent(fullDocument.name.trim());
+    searchableLocation = encodeURIComponent(fullDocument.location.trim());
   
     // ACTION REQUIRED BELOW: Replace "GooglePlacesAPIKey" by the name of the Stitch Value you are using for your Google API Key.
     // Alternatively, replace context.values.get("GooglePlacesAPIKey") by your API Key if you are not using Stitch Value.
     // WHAT THIS DOES: Compose Google Place searchable URL and set it to return a JSON document with only the Place ID
-    GooglePlacesSearchURL ="https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input="+searchableName+"&inputtype=textquery&fields=place_id&key="+context.values.get("GooglePlacesAPIKey");
+    GooglePlacesSearchURL ="https://api.yelp.com/v3/businesses/search?term="+searchableName+"&location="+searchableLocation;
   
     // ACTION REQUIRED BELOW: Replace "GooglePlaces" by the name of the Stitch HTTP GET Service you created.
-    const http = context.services.get("GooglePlacesServices");
+    const http = context.services.get("YelpApiDoc");
     return http
       .get({url: GooglePlacesSearchURL})
       .then(resp=>{
@@ -23,10 +24,10 @@ exports = function(changeEvent) {
           // ACTION REQUIRED BELOW: edit the list of Google Places fields you are interested in. See documentation for full list.
           // Be careful, all fields you list below will be in the MongoDB document per the updateOne procedure (this is because the update procedure inserts the full JSON document straight from Google API into MongoDB) 
           queryFields = "formatted_address,geometry,name,place_id,type,vicinity,formatted_phone_number,international_phone_number,opening_hours,website,rating";
-          GoogleDetailsURL ="https://maps.googleapis.com/maps/api/place/details/json?"+search_result.candidates[0].place_id+"&fields="+queryFields+"&key="+context.values.get("GooglePlacesAPIKey");
+          GoogleDetailsURL ="https://api.yelp.com/v3/businesses/"+search_result.id;
   
           // ACTION REQUIRED BELOW: Replace "GooglePlaces" by the name of the Stitch HTTP GET Service you created.
-          const http = context.services.get("GooglePlacesServices");
+          const http = context.services.get("YelpApiDoc");
           return http
             .get({url: GoogleDetailsURL})
             .then(resp=>{
@@ -41,11 +42,11 @@ exports = function(changeEvent) {
                   {"_id":fullDocument._id},
                   {$set:{
                     "populatedOn":Date(),
-                    "googlePlaceInfo":details_result.result,
-                    "googlegeoJSONcoordinates.type":"Point"},
-                    $push:{ "googlegeoJSONcoordinates.coordinates" : {$each:
-                      [details_result.result.geometry.location.lng,
-                      details_result.result.geometry.location.lat]}}
+                    "businessInfo":details_result.result,
+                    "coordinates.type":"Point"},
+                    $push:{ "coordinates.coordinates" : {$each:
+                      [details_result.result.latitude,
+                      details_result.result.longitude]}}
                     });
             });
       });
